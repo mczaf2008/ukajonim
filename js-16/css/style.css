@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000000;
+}
+
+.wrapp{
+    width: 1000px;
+    border: 5px solid rgb(0, 255, 0);
+    padding: 10px;
+    margin: auto;
+}
+
+.tab{
+    width: 100%;
+    display: flex;
+}
+
+.tab-item{
+    width: 100%;
+    background: rgb(0, 0, 0);
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 255, 0);
+    font-size: 25px;
+    font-weight: 900;
+    border: 1px solid rgb(0, 255, 0);
+    margin: 5px;
+}
+
+.tab-content img{
+    width: calc(100%/4);
+    margin: 30px;
+    
+}
+
+.tab-item.active{
+    background: rgb(0, 255, 0);
+    color: #000000;
+    border: 1px solid rgb(0, 255, 0);
+}
+
+
+.tab-content h1{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+
+.tab-content P{
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+.tab-content{
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 5px;
+    color: rgb(0, 255, 0);
+    border: 1px solid rgb(0, 255, 0);
+}
+
+
+.tab-content:nth-child(3){
+    background: rgb(0, 0, 0);
+    color:rgb(0, 255, 0);
+    border: 3px solid rgb(0, 255, 0);
+}
+
+
+/* wrapp end */
+
+/* **************************************** */
+
+/* wrapper start */
+.wrapper{
+    width: 1000px;
+    margin: auto;
+    border: 5px solid rgb(255, 255, 0);
+    margin-top: 150px;
+}
+
+.box{
+    width: 100%;
+    margin: 10px 0;
+    border: 3px solid rgb(255, 255, 0);
+    margin-top: 15px;
+}
+
+.logo{
+    width: 100%;
+    background: rgb(0, 0, 0);
+    font-size: 25px;
+    padding: 15px;
+    cursor: pointer;
+    color: rgb(255, 255, 0);
+    border: 3px solid rgb(255, 255, 0);
+}
+
+.text{
+    margin: 5px;
+    width: 100%;
+    padding: 10px;
+    background: rgb(0, 0, 0);
+    font-size: 20px;
+    color: rgb(255, 255, 0);
+    border: 3px solid rgb(255, 255, 0);
+}
